@@ -1,7 +1,7 @@
 # SSH Traffic
 
 resource "aws_security_group" "vpc-ssh" {
-  name        = "vpc-ssh-rakshit"
+  name        = "vpc-ssh-aman"
   description = "Dev VPC SSH"
 
   ingress {
@@ -22,14 +22,14 @@ resource "aws_security_group" "vpc-ssh" {
   }
 
   tags = {
-    Name = "vpc-ssh-rakshit"
+    Name = "vpc-ssh-aman"
   }
 }
 
 # Web traffic
 
 resource "aws_security_group" "vpc-web" {
-  name        = "vpc-web-rakshit"
+  name        = "vpc-web-aman"
   description = "Dev VPC SSH"
 
   ingress {
